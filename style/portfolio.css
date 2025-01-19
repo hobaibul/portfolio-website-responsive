@@ -210,9 +210,37 @@ footer textarea{
     display: none;
 }
 @media screen and (max-width:557px) {
+    .header{
+        background-image: none;
+    }
+    .banner{
+        margin: 20px;
+        flex-direction: column;
+    }
+    .bannar_img img{
+        width: 100%;
+    }
+    nav{
+        flex-direction: column;
+        margin: 0;
+    }
+    nav > ul{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .btn_primary{
+        margin-bottom: 10px;
+    }
+
     .skill{
        
         flex-direction: column;
+    }
+    .skiil_container{
+        text-align: center;
+    }
+    .experience, .resume_column_title{
+        text-align: center;
     }
     .resume_container{
         flex-direction: column;
@@ -235,4 +263,6 @@ footer textarea{
     .about_items{
         flex-direction: column;
     }
+
+
 }
